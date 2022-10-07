@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+    font-family: 'Zing-Rust';
+    src: url('../fonts/Zing-Rust.ttf') format('truetype');
+}
+.body {
+    font-family: Gilroy-Medium;
+}
+p {
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Zing-Rust';
+    color: rgba(255, 255, 255, 1);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 109.2%;
+    transform: rotate(-8.37deg);
+    text-shadow: -10px 7px 1px rgba(255,255,255,0.61);
+}
+h2 {
+
+}
+/* HEADER */
+.header {
+    height: 100px;
+    width: 100%;
+    background: rgba(64, 60, 59, 1);
+}
+.header-section {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: Gilroy-Medium;
+}
+.header-logo > h1 {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+.header-search {
+    background: #504B4A;
+    display: flex;
+    width: 555px;
+    height: 52px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.search {
+    background: #504B4A;
+    width: 90%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+.search > input {
+    border: none;
+    background: #504B4A;
+    width: 460px;
+    height: 40px;
+    font-size: 18px;
+    font-family: Gilroy-Medium;
+}
+.search-button {
+    background: #504B4A;
+    border: none;
+}
+.header-contacts {
+    display: flex;
+}
+.header-calling{
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-calling > img {
+    width: 33px;
+    height: 33px;
+}
+.button {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    display: flex;
+    width: 149px;
+    height: 52px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button-basket {
+    display: flex;
+    align-items: center;
+    padding-right: 11px;
+    height: 70%;
+    border-right: 1px solid #FFFFFF;
+}
+.button-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.button-quantity > p {
+    color: black;
+}
+/* MAIN */
+.banner {
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(90deg, #211F20 0%, rgba(68, 64, 63, 0) 100%);
+}
+.banner-position {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-p {
+    font-family: 'Zing-Rust';
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    display: flex;
+    width: 149px;
+    height: 52px;
+    align-items: center;
+    justify-content: space-evenly;
+}     
